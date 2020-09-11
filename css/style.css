@@ -1,0 +1,225 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    background: white;
+    width: 70%;
+    margin: 0px auto;
+    box-shadow: 0px 30px 30px #aaaaaa;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+      
+}
+h1{
+    font-size: 38px;
+    
+    
+}
+h2{
+    font-size: 28px;
+}
+
+/*encabezado de la pagina*/
+    
+header{
+    background: #6439D6;
+    height: 170px;
+    width: 100%;
+    text-align: center;    
+    line-height: 60px;
+    color: white;
+    border-radius:0px 0px 45% 45%;
+    box-shadow: 3px 7px 7px #aaaaaa;
+    padding-top: 30px;
+
+}
+#container .Contenedor-2{
+    margin: 15px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+ .imagen{
+    float: left;
+    position: absolute;
+    left: 20%;
+    top: 50px;
+    
+
+    
+}
+#container .header .imagen img{
+    border-radius: 50%;
+    height: 170px;
+    width: 170px;
+    background: #6439D6;
+    padding: 0px;
+    
+}
+
+/*Fin de encabezado*/
+
+/* Barra lateral o Aside*/
+.linea{
+    background: #6439D6 ;
+    height: 3px;
+    width: 90%;
+    margin: auto;
+    border-radius: 15px;
+}
+.aside{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 10px 10px #aaaaaa;
+    background: #dddddd;
+    width: 30%;
+    max-height: 750px;  
+    
+}
+.aside h3{
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+}
+.aside p{
+    font-size: 15px;
+}
+
+.aside h3{
+    
+    margin: 15px;
+}
+.aside p{
+   
+    margin: 15px;
+}
+.aside .datosPersonales p{
+    margin: 0px;
+}
+.aside .datosPersonales h4{
+
+    margin-top: 8px;
+    padding-left:13px ;
+    
+}
+.aside .datosPersonales p{
+    padding: 0px;
+    margin: 4px;
+    padding-left: 10px;
+    
+}
+.aside .contactos{
+    margin-bottom: 50px;
+}
+
+.contactos .cont{
+    margin: 15px;
+    
+}
+.contactos .email{
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+.contactos i{
+    margin: auto;
+}
+
+
+
+/* fin de barra lateral o aside*/
+
+/*Inicio de contenido*/
+
+#section{
+    margin: 15px;
+    padding: 10px;
+    width: 70%;
+    display: block;
+    min-height: 300px;
+}
+#section h2{
+    margin:10px;
+}
+#section p{
+    margin:6px;
+}
+
+#section h3{
+    margin: 5px;
+}
+#section ul{
+    list-style: none;
+}
+#section ul li strong{
+    margin: 10px;
+    
+}
+#section ul li ul li{
+    padding-left: 60px;
+    margin: 5px;
+    
+}
+.fa-caret-right{
+    margin-left: 10px;
+
+}
+#section ul li .fuenteFormacion strong{
+    margin: 0px;
+    padding: 0px;
+}
+
+#section .habilidades ul li{
+    padding-left: 40px;
+    margin: 5px;
+}
+.contenedorImagen{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;  
+    align-content: space-between;
+    padding: 10px;
+}
+
+img{
+    margin: 10px;
+    padding: 10px;
+    height: 70px;
+    width: 70px;
+    
+}
+
+
+
+/*Fin de contenido*/
+
+.circular-progress{
+ height: 5px;
+ width: 50%;
+ background: #6439D6;
+ margin: auto;
+}
+
+.contenedorImagen p{
+    font-size: 20px; 
+    top: 5px;
+    
+}
+.habilidades div{
+    text-align: center;
+}
+
+
+
+
+
+
